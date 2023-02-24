@@ -12,7 +12,7 @@ class DIVIANFIELD_HelloWorld extends ET_Builder_Module {
 	);
 
 	public function init() {
-		$this->name = esc_html__( 'Hello World', 'divianfield-my-extension' );
+		$this->name = esc_html__( 'Hello World Custom', 'divianfield-my-extension' );
 	}
 
 	public function get_fields() {
